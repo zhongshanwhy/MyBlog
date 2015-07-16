@@ -1,0 +1,27 @@
+{
+  "core": {
+    "db": {
+      "host": "localhost", 
+      "port": 27017
+    }, 
+    "root": {
+      "passwd": "lovecirculation", 
+      "uid": "root"
+    }, 
+    "extension": {
+      "active": [
+        "email"
+      ], 
+      "path": "extension"
+    }
+  }, 
+  "archive": {
+    "items-in-a-page": "20"
+  }, 
+  "extension": {}, 
+  "email": {
+    "email": "", 
+    "age": "", 
+    "motto": ""
+  }
+}
