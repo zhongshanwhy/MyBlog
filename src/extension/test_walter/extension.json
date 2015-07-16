@@ -1,0 +1,39 @@
+{
+	"name":"test_walter",
+	"version":"0.0.0.1",
+	"template":"NULL",
+	"static":"NULL",
+
+	"config":{
+		"master_addr":"lams2135@gmail.com"
+	},
+
+	"adminpanel":{
+		"enable":true,
+		"block":[
+			{
+				"title":"Master mail address",
+				"row":[
+					{
+						"label":"p",
+						"property":[
+							{
+								"value":"xxxx"
+							}
+						],
+						"content":"set master mail to receive notifies"
+					},
+					{
+						"label":"input",
+						"property":[
+							{
+								"id":"mail",
+								"value":"..."
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
